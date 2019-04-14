@@ -3,7 +3,7 @@ A C compiler to accept nested while-loop and if-else condition using lex and yac
 
 Execute this by using the following commands:-
 
-lex tokens.l
-yacc icg.y
-gcc lex.yy.c y.tab.c -ll -ly -w
-./a.out input.c
+1)lex tokens.l
+2)yacc icg.y
+3)gcc lex.yy.c y.tab.c -ll -ly -w
+4)./a.out input.c
